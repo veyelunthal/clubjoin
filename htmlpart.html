@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClubJoin – College Club Registration</title>
+    <link rel="stylesheet" href="createcss.css">
+</head>
+<body>
+
+    <h1 class="title">🎉 ClubJoin – Register for Your Favourite Club</h1>
+
+    <div class="form-box">
+        <form id="clubForm">
+
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="text" id="dept" placeholder="Department (CSE / ECE / etc)" required>
+
+            <input type="email" id="email" placeholder="Email ID" required>
+
+            <select id="club">
+                <option value="">-- Choose a Club --</option>
+                <option value="Coding Club">⚡ Coding Club</option>
+                <option value="Sports Club">🏅 Sports Club</option>
+                <option value="Music Club">🎶 Music Club</option>
+                <option value="Art Club">🎨 Art Club</option>
+                <option value="Robotics Club">🤖 Robotics Club</option>
+            </select>
+
+            <button type="submit">Register 🚀</button>
+        </form>
+    </div>
+
+    <div class="list-section">
+        <h2>📋 Registered Students</h2>
+        <ul id="studentList"></ul>
+    </div>
+
+    <script src="createjs.js"></script>
+
+
+
+    
+</body>
+</html>
